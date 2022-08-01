@@ -21,8 +21,8 @@ object Q3 {
 
   def main(args: Array[String]): Unit = {
     println(formatNames("Benny")()(toUpper))
-    println(formatNames("Niroshan")(0,1)(toUpper))
+    println(formatNames("Niroshan")(0, 1)(toUpper))
     println(formatNames("Saman")()(toLower))
-    println(formatNames("Kumara")(5)(toUpper))
+    println(formatNames("Kumara")(0, 5)(toUpper))
   }
 }
